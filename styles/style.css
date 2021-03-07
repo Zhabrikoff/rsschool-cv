@@ -13,6 +13,13 @@ body {
   background-color: #5d5d5d;
 }
 
+header h1 {
+  position: absolute;
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+}
+
 header .menu {
   display: flex;
   justify-content: space-around;
@@ -66,15 +73,15 @@ main h3 {
 }
 
 main ul li {
-  list-style: none; /* Скрываем маркеры списка */
+  list-style: none;
   padding-left: 20px;
   line-height: 25px;
 }
 
 main ul li::before {
-  content: "\25ba"; /* Добавляем маркер в шестнадцатеричном формате*/
-  padding-right: 15px; /* Расстояние от маркеров до текста */
-  color: #ae8c2e; /* Маркеры красного цвета */
+  content: "\25ba";
+  padding-right: 15px;
+  color: #ae8c2e;
 }
 
 main ul li a {
