@@ -1,0 +1,100 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f4f0;
+}
+
+.wrapper header {
+  padding: 20px;
+  background-color: #5d5d5d;
+}
+
+header .menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+header nav ul li a:hover {
+  padding-bottom: 16px;
+  border-bottom: 3px solid #ae8c2e;
+  color: #c19864;
+}
+
+.container {
+  padding: 50px 50px;
+  border-top: 1px solid #5d5d5d;
+  border-bottom: 1px solid #5d5d5d;
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutMe h2 {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 50px 0;
+}
+
+.aboutMe li {
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.aboutMe img {
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid #5d5d5d;
+}
+
+main h3 {
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+main ul li {
+  list-style: none; /* Скрываем маркеры списка */
+  padding-left: 20px;
+  line-height: 25px;
+}
+
+main ul li::before {
+  content: "\25ba"; /* Добавляем маркер в шестнадцатеричном формате*/
+  padding-right: 15px; /* Расстояние от маркеров до текста */
+  color: #ae8c2e; /* Маркеры красного цвета */
+}
+
+main ul li a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.3s;
+}
+
+main ul li a:hover {
+  color: #c19864;
+}
+
+main p {
+  line-height: 30px;
+}
+
+footer {
+  text-align: center;
+  background-color: #5d5d5d;
+  padding: 20px;
+  color: #ffffff;
+  font-weight: 700;
+}
