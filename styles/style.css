@@ -99,9 +99,16 @@ main p {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
   text-align: center;
   background-color: #5d5d5d;
-  padding: 20px;
   color: #ffffff;
   font-weight: 700;
+}
+
+.footer__icons {
+  width: 70px;
 }
